@@ -6,7 +6,7 @@ from pathlib import Path
 import os
 from audio import reproducir_audio
 
-client = OpenAI(api_key= "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")   
+client = OpenAI(api_key= "YOUR_APY_KEY")   
 
 # Establece tu API key
 
@@ -70,7 +70,7 @@ def enviar_pregunta():
 
     try:
         # Send the question to the GPT-3 API using your API key
-        respuesta = chat_with_gpt(pregunta,api_key= "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")
+        
 
      # Formatear y mostrar la respuesta en el widget de texto de salida
         texto_respuesta.insert(tk.END, f"Tú: {pregunta}\n")
