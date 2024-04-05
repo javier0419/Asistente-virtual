@@ -6,6 +6,7 @@ from pathlib import Path
 import os
 from audio import reproducir_audio
 
+
 client = OpenAI(api_key= "YOUR_APY_KEY")   
 
 # Establece tu API key
