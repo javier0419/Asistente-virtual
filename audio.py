@@ -1,5 +1,6 @@
 import pygame
 
+
 def reproducir_audio(ruta_archivo):
     try:
         pygame.mixer.init()
