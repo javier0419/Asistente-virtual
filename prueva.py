@@ -1,5 +1,6 @@
 import speech_recognition as sr
 
+
 # Configura el reconocedor de voz
 reconocedor = sr.Recognizer()
 
